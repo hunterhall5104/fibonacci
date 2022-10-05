@@ -1,0 +1,28 @@
+class Fibonacci:
+
+    def fib(n):
+        a = 0
+        b = 1
+        n = int(input("Enter a integer: "))
+        # Check that input is positive integer greater than 0
+        while n <= 0:
+            n = int(input("Enter a number greater than 0: "))
+            continue
+            
+        if n == 1:
+            print(a)
+        else:
+            print(a)
+            print(b)
+            x = 1
+            for i in range(2, n):
+                c = a + b
+                while c < n:
+                    print(c)
+                    a = b
+                    b = c
+                    break
+                
+                
+fi = Fibonacci()
+Fibonacci.fib(fi)
